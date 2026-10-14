@@ -10,7 +10,7 @@ module.exports = { formatOrder };
  Remove the // at the start of each line below, then push.
 
  function receipt(name, prices) {
-   var total = totalPrice(prices);
+   const total = totalPrice(prices);
    if (prices.length == 0) {
      return name + ' ordered nothing';
    }
